@@ -7,20 +7,13 @@ import java.util.logging.LogRecord;
 
 /**
  * A custom formatter for java.util.logging.Logger
- * Formats log messages like this: [log level] time [source class name] message<line separator>
+ * Formats log messages like this: [log level] time [source logger name] message<line separator>
  * @author Phil Niehus
  *
  */
 public class ScribblerLogFormat extends Formatter{
 	private final String lineSeparator;
 	private SimpleDateFormat dateFormat;
-	
-	/**
-	 * Creates an instance of the ScribblerLogFormat using a dd.MM.yyyy HH:mm:ss format for time stamps
-	 */
-	public ScribblerLogFormat() {
-		this(new SimpleDateFormat("dd.MM.yyyy HH:mm:ss"));
-	}
 	
 	/**
 	 * Creates an instance of the ScribblerLogFormat using the given SimpleDateFormat to format time stamps
@@ -36,7 +29,7 @@ public class ScribblerLogFormat extends Formatter{
 		StringBuffer bf = new StringBuffer(1000);
 		bf.append("[" + record.getLevel() + "] ");
 		bf.append(getFormatedDate(record.getMillis()));
-		bf.append(" [" + record.getSourceClassName() + "] ");
+		bf.append(" [" + record.getLoggerName() + "] ");
 		bf.append(formatMessage(record));
 		bf.append(lineSeparator);
 		return bf.toString();
