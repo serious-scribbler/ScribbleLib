@@ -5,7 +5,8 @@ import javax.xml.bind.DatatypeConverter;
 /**
  * This class contains method to work with byte[]
  * @author Phil Niehus
- *
+ * (c) Copyright 2018 Phil Niehus
+ * Licensed under the MIT license: https://opensource.org/licenses/MIT
  */
 public class ByteTools {
 	

@@ -10,9 +10,10 @@ import javax.crypto.spec.PBEKeySpec;
 
 
 /**
- * This class contains an implementation of PBKDF2
+ * This class contains an implementation of PBKDF2 with HMAC-SHA512
  * @author Phil Niehus
- *
+ * (c) Copyright 2018 Phil Niehus
+ * Licensed under the MIT license: https://opensource.org/licenses/MIT
  */
 public class PBKDF2 {
 	

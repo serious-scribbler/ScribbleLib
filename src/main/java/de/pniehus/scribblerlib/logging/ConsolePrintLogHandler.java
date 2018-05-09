@@ -7,7 +7,8 @@ import java.util.logging.LogRecord;
 /**
  * This class implements a ConsoleHandler for loggers, that prints to stdout
  * @author Phil Niehus
- *
+ * (c) Copyright 2018 Phil Niehus
+ * Licensed under the MIT license: https://opensource.org/licenses/MIT
  */
 public class ConsolePrintLogHandler extends Handler{
 	

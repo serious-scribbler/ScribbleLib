@@ -9,7 +9,8 @@ import java.util.logging.LogRecord;
  * A custom formatter for java.util.logging.Logger
  * Formats log messages like this: [log level] time [source logger name] message<line separator>
  * @author Phil Niehus
- *
+ * (c) Copyright 2018 Phil Niehus
+ * Licensed under the MIT license: https://opensource.org/licenses/MIT
  */
 public class ScribblerLogFormat extends Formatter{
 	private final String lineSeparator;
