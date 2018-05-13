@@ -28,7 +28,7 @@ public class SimpleLoggingSetup {
 	 * @param logPath
 	 *            The absolute path to the log file
 	 * @param logLevel
-	 *            The log level for the root handler {@see Level}
+	 *            The log level for the root handler
 	 * @param enableStdout
 	 *            Enables or disables output to stdout
 	 * @param dateFormat
@@ -62,7 +62,7 @@ public class SimpleLoggingSetup {
 	 * @param logPath
 	 *            The absolute path to the log file
 	 * @param logLevel
-	 *            The log level for the root handler {@see Level}
+	 *            The log level for the root handler
 	 * @param enableStdout
 	 *            Enables or disables output to stdout
 	 * @throws IOException

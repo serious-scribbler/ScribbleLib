@@ -7,7 +7,7 @@ import java.util.logging.LogRecord;
 
 /**
  * A custom formatter for java.util.logging.Logger
- * Formats log messages like this: [log level] time [source logger name] message<line separator>
+ * Formats log messages like this: [log level] time [source logger name] message&#x3C;line separator&#x3E;
  * @author Phil Niehus
  * (c) Copyright 2018 Phil Niehus
  * Licensed under the MIT license: https://opensource.org/licenses/MIT
