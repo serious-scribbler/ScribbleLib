@@ -8,4 +8,11 @@ Sure, you can use it under the conditions of the MIT license. You can let me kno
 
 ## How can I use this library?
 
-I will publish it on Maven Central later.
+Releases of this library are available via Maven Central. Just add the following dependency to your pom:
+```XML
+<dependency>
+  <groupId>de.pniehus.scribblerlib</groupId>
+  <artifactId>scribblerlib</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
