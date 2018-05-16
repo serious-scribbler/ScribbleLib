@@ -1,4 +1,4 @@
-# ScribbleLib
+# ScribblerLib
 
 This is a library with classes I use for my personal projects. It only contains classes for PBKDF2 and logging at it's current state.
 
