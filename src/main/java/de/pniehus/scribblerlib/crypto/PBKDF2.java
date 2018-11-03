@@ -17,10 +17,7 @@ import javax.crypto.spec.PBEKeySpec;
  */
 public class PBKDF2 {
 	
-	/**
-	 * The recommended number of iterations for PBKDF2 (@link https://nakedsecurity.sophos.com/2016/08/18/nists-new-password-rules-what-you-need-to-know/)
-	 */
-	public static final int PBKDF2_ITERATIONS = 10000;
+	public static final int PBKDF2_ITERATIONS = 20000;
 	/**
 	 * The recommended salt length in bytes for PBKDF2 (@link https://nakedsecurity.sophos.com/2016/08/18/nists-new-password-rules-what-you-need-to-know/)
 	 */
